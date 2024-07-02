@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Form</title></head>
+<body>
+<h2> <marquee>REGISTRATION FORM </marquee></h2>
+<center>
+<label for="username"> Student Course register:</label>
+<input type="text" id="Studentname" name="Studentname">
+<label for="birthdate">Dob:</label>
+<input type="date" id="birthdate" name="birthdate">
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <label for="fileUpload">Upload Signature:</label>
+    <input type="file" id="fileUpload" name="fileUpload" accept=".jpg, .png, .pdf">
+    <br>
+    <button type="submit">Upload File</button>
+<br>
+
+  <label for="gender">Gender:</label>
+    <input type="radio" name="gender" value="male">
+    Male
+  </label>
+  <label>
+    <input type="radio" name="gender" value="female">
+    Female
+  </label>
+  <label>
+    <input type="radio" name="gender" value="other">
+    Other
+  </label><br>
+<label for="department">Department:</label>
+ <input type="checkbox" name="department" value="CSE">
+    CSE
+ <input type="checkbox" name="department" value="IT">
+    IT
+ <input type="checkbox" name="department" value="AIDS">
+    AIDS
+ <input type="checkbox" name="department" value="AIML">
+   AIML
+ <input type="checkbox" name="department" value="CSBS">
+    CSBS
+  </label><br>
+<label for="course">Select a Course:</label>
+
+<select name="course" id="course">
+  <option value="AI">AI</option>
+  <option value="ML">ML</option>
+  <option value="DBMS">DBMS</option>
+  <option value="Devops">Devops</option>
+</select><br>
+
+<label for="Address">Address:</label>
+<textarea id="Address" name="address" </textarea>
+<br>
+<input type="Submit" value="Submit">
+
+
+
+
+
+
+ 
